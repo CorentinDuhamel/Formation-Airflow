@@ -27,17 +27,17 @@ dag = DAG(
 #------------------------------------------------------------------------------
 # Task
 task_1=DummyOperator(
-    task_id='task-1'
+    task_id='task-1',
     dag=dag
 )
 
 task_2=DummyOperator(
-    task_id='task-2'
+    task_id='task-2',
     dag=dag
 )
 
 task_3=DummyOperator(
-    task_id='task-3'
+    task_id='task-3',
     dag=dag
 )
 
