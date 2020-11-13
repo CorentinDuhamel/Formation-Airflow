@@ -7,7 +7,7 @@ dag_name = 'mon-premier-dag'
 #------------------------------------------------------------------------------
 # Args du DAG
 default_args = {
-    'owner': 'corentin'
+    'owner': 'corentin',
     'start_date': datetime(2020, 11, 7),
     'retries': 1,
     'retry_delay': timedelta(minutes=15)
